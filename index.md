@@ -2,11 +2,16 @@
 
 ## Word Clouds
 
-### Environment, Food, and Rural Affairs
-![Environment, Food, and Rural Affairs Word Cloud](assets/EnvironmentFoodRuralAffairs_wordcloud.png)
-
-### Food, Diet, and Obesity
-![Food, Diet, and Obesity Word Cloud](assets/FoodDietandObesity_wordcloud.png)
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <div style="text-align: center; margin: 10px;">
+        <h3>Environment, Food, and Rural Affairs</h3>
+        <img src="assets/EnvironmentFoodRuralAffairs_wordcloud.png" alt="Environment, Food, and Rural Affairs Committee" style="width: 100%; max-width: 600px;">
+    </div>
+    <div style="text-align: center; margin: 10px;">
+        <h3>Food, Diet, and Obesity</h3>
+        <img src="assets/FoodDietandObesity_wordcloud.png" alt="Food, Diet, and Obesity Committee" style="width: 100%; max-width: 600px;">
+    </div>
+</div>
 
 ## pyLDAvis Visualizations
 
