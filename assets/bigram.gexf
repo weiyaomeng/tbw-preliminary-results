@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-05-16">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="food" label="food" />
+      <node id="industry" label="industry" />
+      <node id="supply" label="supply" />
+      <node id="chain" label="chain" />
+      <node id="salt" label="salt" />
+      <node id="sugar" label="sugar" />
+      <node id="school" label="school" />
+      <node id="environment" label="environment" />
+      <node id="meal" label="meal" />
+      <node id="system" label="system" />
+      <node id="company" label="company" />
+      <node id="evidence" label="evidence" />
+      <node id="session" label="session" />
+      <node id="health" label="health" />
+      <node id="outcome" label="outcome" />
+      <node id="junk" label="junk" />
+      <node id="child" label="child" />
+      <node id="committee" label="committee" />
+      <node id="role" label="role" />
+      <node id="standard" label="standard" />
+      <node id="policy" label="policy" />
+      <node id="insecurity" label="insecurity" />
+      <node id="access" label="access" />
+      <node id="fat" label="fat" />
+      <node id="cost" label="cost" />
+      <node id="production" label="production" />
+      <node id="obesity" label="obesity" />
+      <node id="government" label="government" />
+      <node id="inflation" label="inflation" />
+      <node id="bank" label="bank" />
+      <node id="outlet" label="outlet" />
+      <node id="manufacturer" label="manufacturer" />
+      <node id="example" label="example" />
+      <node id="advertising" label="advertising" />
+      <node id="definition" label="definition" />
+      <node id="member" label="member" />
+      <node id="interest" label="interest" />
+      <node id="strategy" label="strategy" />
+      <node id="baby" label="baby" />
+      <node id="group" label="group" />
+      <node id="education" label="education" />
+      <node id="input" label="input" />
+      <node id="conflict" label="conflict" />
+      <node id="amount" label="amount" />
+      <node id="question" label="question" />
+      <node id="increase" label="increase" />
+      <node id="waste" label="waste" />
+      <node id="time" label="time" />
+      <node id="country" label="country" />
+      <node id="choice" label="choice" />
+      <node id="category" label="category" />
+      <node id="influence" label="influence" />
+      <node id="shop" label="shop" />
+      <node id="price" label="price" />
+      <node id="nutrition" label="nutrition" />
+      <node id="climate" label="climate" />
+      <node id="change" label="change" />
+      <node id="consumer" label="consumer" />
+      <node id="consumption" label="consumption" />
+      <node id="worker" label="worker" />
+      <node id="scheme" label="scheme" />
+      <node id="money" label="money" />
+      <node id="living" label="living" />
+      <node id="need" label="need" />
+      <node id="department" label="department" />
+      <node id="supermarket" label="supermarket" />
+      <node id="part" label="part" />
+      <node id="area" label="area" />
+      <node id="impact" label="impact" />
+      <node id="quality" label="quality" />
+      <node id="relationship" label="relationship" />
+      <node id="community" label="community" />
+      <node id="fact" label="fact" />
+      <node id="takeaway" label="takeaway" />
+      <node id="kind" label="kind" />
+      <node id="planning" label="planning" />
+      <node id="market" label="market" />
+      <node id="share" label="share" />
+      <node id="family" label="family" />
+      <node id="report" label="report" />
+      <node id="profit" label="profit" />
+      <node id="margin" label="margin" />
+      <node id="period" label="period" />
+      <node id="procedure" label="procedure" />
+      <node id="opportunity" label="opportunity" />
+      <node id="deem" label="deem" />
+      <node id="regulation" label="regulation" />
+      <node id="business" label="business" />
+      <node id="research" label="research" />
+      <node id="poverty" label="poverty" />
+      <node id="option" label="option" />
+      <node id="meeting" label="meeting" />
+      <node id="inequality" label="inequality" />
+      <node id="rate" label="rate" />
+      <node id="process" label="process" />
+      <node id="doe" label="doe" />
+      <node id="tobacco" label="tobacco" />
+      <node id="corporation" label="corporation" />
+      <node id="cohort" label="cohort" />
+      <node id="study" label="study" />
+      <node id="model" label="model" />
+      <node id="approach" label="approach" />
+      <node id="declare" label="declare" />
+      <node id="beverage" label="beverage" />
+      <node id="university" label="university" />
+      <node id="claim" label="claim" />
+      <node id="care" label="care" />
+      <node id="cause" label="cause" />
+      <node id="responsibility" label="responsibility" />
+      <node id="actor" label="actor" />
+      <node id="sector" label="sector" />
+      <node id="security" label="security" />
+      <node id="farmer" label="farmer" />
+      <node id="grower" label="grower" />
+      <node id="fruit" label="fruit" />
+      <node id="producer" label="producer" />
+      <node id="veg" label="veg" />
+      <node id="view" label="view" />
+      <node id="risk" label="risk" />
+      <node id="challenge" label="challenge" />
+      <node id="disease" label="disease" />
+      <node id="lord" label="lord" />
+      <node id="morning" label="morning" />
+      <node id="density" label="density" />
+      <node id="availability" label="availability" />
+      <node id="effect" label="effect" />
+      <node id="drink" label="drink" />
+      <node id="trial" label="trial" />
+      <node id="mechanism" label="mechanism" />
+      <node id="experience" label="experience" />
+      <node id="processor" label="processor" />
+      <node id="decision" label="decision" />
+      <node id="world" label="world" />
+      <node id="retailer" label="retailer" />
+      <node id="income" label="income" />
+      <node id="project" label="project" />
+      <node id="population" label="population" />
+      <node id="support" label="support" />
+      <node id="chef" label="chef" />
+      <node id="inquiry" label="inquiry" />
+      <node id="levy" label="levy" />
+      <node id="calorie" label="calorie" />
+      <node id="publication" label="publication" />
+      <node id="gate" label="gate" />
+      <node id="recommendation" label="recommendation" />
+      <node id="promotion" label="promotion" />
+      <node id="energy" label="energy" />
+      <node id="help" label="help" />
+      <node id="reformulation" label="reformulation" />
+      <node id="convenience" label="convenience" />
+      <node id="professor" label="professor" />
+      <node id="look" label="look" />
+      <node id="priority" label="priority" />
+      <node id="index" label="index" />
+      <node id="data" label="data" />
+      <node id="transparency" label="transparency" />
+      <node id="type" label="type" />
+      <node id="month" label="month" />
+      <node id="accuracy" label="accuracy" />
+      <node id="intake" label="intake" />
+      <node id="guideline" label="guideline" />
+      <node id="purchase" label="purchase" />
+      <node id="organization" label="organization" />
+      <node id="difference" label="difference" />
+      <node id="nutrient" label="nutrient" />
+      <node id="substance" label="substance" />
+      <node id="home" label="home" />
+      <node id="sodium" label="sodium" />
+      <node id="profile" label="profile" />
+      <node id="water" label="water" />
+      <node id="factor" label="factor" />
+      <node id="solution" label="solution" />
+      <node id="grocery" label="grocery" />
+      <node id="code" label="code" />
+      <node id="shelf" label="shelf" />
+      <node id="competition" label="competition" />
+      <node id="authority" label="authority" />
+      <node id="benefit" label="benefit" />
+      <node id="discussion" label="discussion" />
+      <node id="director" label="director" />
+      <node id="action" label="action" />
+      <node id="use" label="use" />
+      <node id="foundation" label="foundation" />
+      <node id="reason" label="reason" />
+      <node id="legislation" label="legislation" />
+      <node id="life" label="life" />
+      <node id="call" label="call" />
+      <node id="lunch" label="lunch" />
+      <node id="show" label="show" />
+      <node id="age" label="age" />
+      <node id="tax" label="tax" />
+      <node id="childhood" label="childhood" />
+      <node id="england" label="england" />
+      <node id="prevalence" label="prevalence" />
+      <node id="ask" label="ask" />
+      <node id="body" label="body" />
+      <node id="consume" label="consume" />
+      <node id="packaging" label="packaging" />
+      <node id="bread" label="bread" />
+      <node id="processing" label="processing" />
+      <node id="fibre" label="fibre" />
+      <node id="association" label="association" />
+      <node id="assessment" label="assessment" />
+      <node id="street" label="street" />
+      <node id="deprivation" label="deprivation" />
+      <node id="parent" label="parent" />
+      <node id="hub" label="hub" />
+      <node id="offer" label="offer" />
+      <node id="balance" label="balance" />
+      <node id="ingredient" label="ingredient" />
+      <node id="extent" label="extent" />
+      <node id="supplier" label="supplier" />
+      <node id="power" label="power" />
+      <node id="adjudicator" label="adjudicator" />
+      <node id="course" label="course" />
+      <node id="survey" label="survey" />
+      <node id="organisation" label="organisation" />
+      <node id="response" label="response" />
+      <node id="briefly" label="briefly" />
+      <node id="concern" label="concern" />
+      <node id="affair" label="affair" />
+      <node id="commodity" label="commodity" />
+      <node id="trend" label="trend" />
+      <node id="decade" label="decade" />
+      <node id="discretion" label="discretion" />
+      <node id="unit" label="unit" />
+      <node id="value" label="value" />
+      <node id="breakfast" label="breakfast" />
+      <node id="range" label="range" />
+      <node id="sale" label="sale" />
+      <node id="cook" label="cook" />
+      <node id="labour" label="labour" />
+      <node id="customer" label="customer" />
+      <node id="structure" label="structure" />
+      <node id="focus" label="focus" />
+      <node id="case" label="case" />
+      <node id="insecure" label="insecure" />
+      <node id="information" label="information" />
+      <node id="message" label="message" />
+      <node id="repeat" label="repeat" />
+      <node id="institute" label="institute" />
+      <node id="adult" label="adult" />
+      <node id="le" label="le" />
+      <node id="book" label="book" />
+      <node id="register" label="register" />
+      <node id="snack" label="snack" />
+      <node id="reduction" label="reduction" />
+      <node id="position" label="position" />
+      <node id="harm" label="harm" />
+      <node id="classification" label="classification" />
+      <node id="formulation" label="formulation" />
+      <node id="drive" label="drive" />
+      <node id="policymakers" label="policymakers" />
+      <node id="exposure" label="exposure" />
+      <node id="condition" label="condition" />
+      <node id="consequence" label="consequence" />
+      <node id="measure" label="measure" />
+      <node id="everything" label="everything" />
+      <node id="matter" label="matter" />
+      <node id="measurement" label="measurement" />
+      <node id="management" label="management" />
+      <node id="composition" label="composition" />
+      <node id="mind" label="mind" />
+      <node id="provision" label="provision" />
+    </nodes>
+    <edges>
+      <edge source="food" target="industry" id="0" weight="360" />
+      <edge source="food" target="food" id="1" weight="1900" />
+      <edge source="food" target="environment" id="2" weight="250" />
+      <edge source="food" target="system" id="3" weight="150" />
+      <edge source="food" target="school" id="4" weight="410" />
+      <edge source="food" target="company" id="5" weight="150" />
+      <edge source="food" target="health" id="6" weight="180" />
+      <edge source="food" target="junk" id="7" weight="440" />
+      <edge source="food" target="child" id="8" weight="240" />
+      <edge source="food" target="role" id="9" weight="80" />
+      <edge source="food" target="standard" id="10" weight="360" />
+      <edge source="food" target="policy" id="11" weight="120" />
+      <edge source="food" target="insecurity" id="12" weight="350" />
+      <edge source="food" target="supply" id="13" weight="340" />
+      <edge source="food" target="access" id="14" weight="310" />
+      <edge source="food" target="fat" id="15" weight="280" />
+      <edge source="food" target="obesity" id="16" weight="130" />
+      <edge source="food" target="sugar" id="17" weight="140" />
+      <edge source="food" target="inflation" id="18" weight="60" />
+      <edge source="food" target="bank" id="19" weight="50" />
+      <edge source="food" target="outlet" id="20" weight="240" />
+      <edge source="food" target="manufacturer" id="21" weight="90" />
+      <edge source="food" target="example" id="22" weight="150" />
+      <edge source="food" target="advertising" id="23" weight="90" />
+      <edge source="food" target="definition" id="24" weight="140" />
+      <edge source="food" target="strategy" id="25" weight="110" />
+      <edge source="food" target="baby" id="26" weight="220" />
+      <edge source="food" target="group" id="27" weight="120" />
+      <edge source="food" target="education" id="28" weight="210" />
+      <edge source="food" target="evidence" id="29" weight="170" />
+      <edge source="food" target="question" id="30" weight="150" />
+      <edge source="food" target="committee" id="31" weight="190" />
+      <edge source="food" target="waste" id="32" weight="80" />
+      <edge source="food" target="time" id="33" weight="170" />
+      <edge source="food" target="country" id="34" weight="100" />
+      <edge source="food" target="choice" id="35" weight="60" />
+      <edge source="food" target="category" id="36" weight="80" />
+      <edge source="food" target="influence" id="37" weight="180" />
+      <edge source="food" target="shop" id="38" weight="80" />
+      <edge source="food" target="price" id="39" weight="70" />
+      <edge source="food" target="nutrition" id="40" weight="90" />
+      <edge source="food" target="consumer" id="41" weight="80" />
+      <edge source="food" target="change" id="42" weight="160" />
+      <edge source="food" target="consumption" id="43" weight="60" />
+      <edge source="food" target="government" id="44" weight="50" />
+      <edge source="food" target="money" id="45" weight="50" />
+      <edge source="food" target="need" id="46" weight="150" />
+      <edge source="food" target="supermarket" id="47" weight="100" />
+      <edge source="food" target="part" id="48" weight="140" />
+      <edge source="food" target="area" id="49" weight="80" />
+      <edge source="food" target="impact" id="50" weight="140" />
+      <edge source="food" target="quality" id="51" weight="50" />
+      <edge source="food" target="relationship" id="52" weight="140" />
+      <edge source="food" target="community" id="53" weight="140" />
+      <edge source="food" target="fact" id="54" weight="110" />
+      <edge source="food" target="takeaway" id="55" weight="140" />
+      <edge source="food" target="kind" id="56" weight="140" />
+      <edge source="food" target="cost" id="57" weight="90" />
+      <edge source="food" target="family" id="58" weight="60" />
+      <edge source="food" target="report" id="59" weight="130" />
+      <edge source="food" target="market" id="60" weight="90" />
+      <edge source="food" target="regulation" id="61" weight="50" />
+      <edge source="food" target="chain" id="62" weight="80" />
+      <edge source="food" target="business" id="63" weight="120" />
+      <edge source="food" target="research" id="64" weight="100" />
+      <edge source="food" target="poverty" id="65" weight="120" />
+      <edge source="food" target="option" id="66" weight="100" />
+      <edge source="food" target="doe" id="67" weight="50" />
+      <edge source="food" target="corporation" id="68" weight="120" />
+      <edge source="food" target="model" id="69" weight="110" />
+      <edge source="food" target="approach" id="70" weight="50" />
+      <edge source="food" target="salt" id="71" weight="80" />
+      <edge source="food" target="responsibility" id="72" weight="100" />
+      <edge source="food" target="study" id="73" weight="60" />
+      <edge source="food" target="sector" id="74" weight="50" />
+      <edge source="food" target="security" id="75" weight="90" />
+      <edge source="food" target="fruit" id="76" weight="50" />
+      <edge source="food" target="producer" id="77" weight="90" />
+      <edge source="food" target="production" id="78" weight="90" />
+      <edge source="food" target="view" id="79" weight="50" />
+      <edge source="food" target="risk" id="80" weight="90" />
+      <edge source="food" target="challenge" id="81" weight="80" />
+      <edge source="food" target="interest" id="82" weight="60" />
+      <edge source="food" target="density" id="83" weight="90" />
+      <edge source="food" target="availability" id="84" weight="90" />
+      <edge source="food" target="effect" id="85" weight="90" />
+      <edge source="food" target="mechanism" id="86" weight="50" />
+      <edge source="food" target="experience" id="87" weight="90" />
+      <edge source="food" target="rate" id="88" weight="80" />
+      <edge source="food" target="income" id="89" weight="50" />
+      <edge source="food" target="project" id="90" weight="60" />
+      <edge source="food" target="drink" id="91" weight="80" />
+      <edge source="food" target="disease" id="92" weight="80" />
+      <edge source="food" target="calorie" id="93" weight="60" />
+      <edge source="food" target="promotion" id="94" weight="70" />
+      <edge source="food" target="worker" id="95" weight="70" />
+      <edge source="food" target="energy" id="96" weight="70" />
+      <edge source="food" target="member" id="97" weight="70" />
+      <edge source="food" target="help" id="98" weight="70" />
+      <edge source="food" target="professor" id="99" weight="70" />
+      <edge source="food" target="look" id="100" weight="60" />
+      <edge source="food" target="priority" id="101" weight="70" />
+      <edge source="food" target="index" id="102" weight="70" />
+      <edge source="food" target="type" id="103" weight="50" />
+      <edge source="food" target="lord" id="104" weight="70" />
+      <edge source="food" target="intake" id="105" weight="70" />
+      <edge source="food" target="reformulation" id="106" weight="70" />
+      <edge source="food" target="guideline" id="107" weight="70" />
+      <edge source="food" target="purchase" id="108" weight="70" />
+      <edge source="food" target="difference" id="109" weight="50" />
+      <edge source="food" target="nutrient" id="110" weight="70" />
+      <edge source="food" target="substance" id="111" weight="70" />
+      <edge source="food" target="home" id="112" weight="70" />
+      <edge source="food" target="cause" id="113" weight="70" />
+      <edge source="food" target="profile" id="114" weight="60" />
+      <edge source="food" target="factor" id="115" weight="60" />
+      <edge source="food" target="benefit" id="116" weight="60" />
+      <edge source="food" target="world" id="117" weight="60" />
+      <edge source="food" target="action" id="118" weight="60" />
+      <edge source="food" target="use" id="119" weight="60" />
+      <edge source="food" target="director" id="120" weight="60" />
+      <edge source="food" target="foundation" id="121" weight="60" />
+      <edge source="food" target="reason" id="122" weight="60" />
+      <edge source="food" target="outcome" id="123" weight="60" />
+      <edge source="food" target="legislation" id="124" weight="60" />
+      <edge source="food" target="recommendation" id="125" weight="50" />
+      <edge source="food" target="life" id="126" weight="50" />
+      <edge source="food" target="tax" id="127" weight="60" />
+      <edge source="food" target="consume" id="128" weight="60" />
+      <edge source="food" target="packaging" id="129" weight="60" />
+      <edge source="food" target="bread" id="130" weight="60" />
+      <edge source="food" target="tobacco" id="131" weight="50" />
+      <edge source="food" target="amount" id="132" weight="60" />
+      <edge source="food" target="processing" id="133" weight="60" />
+      <edge source="food" target="decision" id="134" weight="60" />
+      <edge source="food" target="association" id="135" weight="60" />
+      <edge source="food" target="data" id="136" weight="60" />
+      <edge source="food" target="street" id="137" weight="60" />
+      <edge source="food" target="balance" id="138" weight="60" />
+      <edge source="food" target="ingredient" id="139" weight="50" />
+      <edge source="food" target="extent" id="140" weight="50" />
+      <edge source="food" target="organisation" id="141" weight="50" />
+      <edge source="food" target="affair" id="142" weight="50" />
+      <edge source="food" target="decade" id="143" weight="50" />
+      <edge source="food" target="value" id="144" weight="50" />
+      <edge source="food" target="range" id="145" weight="50" />
+      <edge source="food" target="sale" id="146" weight="50" />
+      <edge source="food" target="cook" id="147" weight="50" />
+      <edge source="food" target="discussion" id="148" weight="50" />
+      <edge source="food" target="structure" id="149" weight="50" />
+      <edge source="food" target="focus" id="150" weight="50" />
+      <edge source="food" target="case" id="151" weight="50" />
+      <edge source="food" target="insecure" id="152" weight="50" />
+      <edge source="food" target="information" id="153" weight="50" />
+      <edge source="food" target="message" id="154" weight="50" />
+      <edge source="food" target="university" id="155" weight="50" />
+      <edge source="food" target="profit" id="156" weight="50" />
+      <edge source="food" target="le" id="157" weight="50" />
+      <edge source="food" target="book" id="158" weight="50" />
+      <edge source="food" target="show" id="159" weight="50" />
+      <edge source="food" target="response" id="160" weight="50" />
+      <edge source="food" target="snack" id="161" weight="50" />
+      <edge source="food" target="body" id="162" weight="50" />
+      <edge source="food" target="position" id="163" weight="50" />
+      <edge source="food" target="harm" id="164" weight="50" />
+      <edge source="food" target="formulation" id="165" weight="50" />
+      <edge source="food" target="increase" id="166" weight="50" />
+      <edge source="food" target="drive" id="167" weight="50" />
+      <edge source="food" target="trial" id="168" weight="50" />
+      <edge source="food" target="exposure" id="169" weight="50" />
+      <edge source="food" target="measure" id="170" weight="50" />
+      <edge source="food" target="everything" id="171" weight="50" />
+      <edge source="food" target="matter" id="172" weight="50" />
+      <edge source="food" target="composition" id="173" weight="50" />
+      <edge source="industry" target="industry" id="174" weight="160" />
+      <edge source="industry" target="government" id="175" weight="60" />
+      <edge source="industry" target="influence" id="176" weight="120" />
+      <edge source="industry" target="tobacco" id="177" weight="120" />
+      <edge source="industry" target="policy" id="178" weight="60" />
+      <edge source="industry" target="health" id="179" weight="110" />
+      <edge source="industry" target="research" id="180" weight="100" />
+      <edge source="industry" target="actor" id="181" weight="100" />
+      <edge source="industry" target="drink" id="182" weight="90" />
+      <edge source="industry" target="change" id="183" weight="80" />
+      <edge source="industry" target="role" id="184" weight="60" />
+      <edge source="industry" target="levy" id="185" weight="80" />
+      <edge source="industry" target="regulation" id="186" weight="60" />
+      <edge source="industry" target="consumer" id="187" weight="60" />
+      <edge source="industry" target="time" id="188" weight="60" />
+      <edge source="industry" target="member" id="189" weight="50" />
+      <edge source="industry" target="trend" id="190" weight="50" />
+      <edge source="industry" target="conflict" id="191" weight="50" />
+      <edge source="industry" target="evidence" id="192" weight="50" />
+      <edge source="industry" target="company" id="193" weight="50" />
+      <edge source="supply" target="chain" id="194" weight="1260" />
+      <edge source="supply" target="cost" id="195" weight="70" />
+      <edge source="supply" target="grocery" id="196" weight="60" />
+      <edge source="supply" target="code" id="197" weight="60" />
+      <edge source="supply" target="farmer" id="198" weight="60" />
+      <edge source="supply" target="power" id="199" weight="50" />
+      <edge source="chain" target="cost" id="200" weight="60" />
+      <edge source="chain" target="consumer" id="201" weight="50" />
+      <edge source="salt" target="sugar" id="202" weight="430" />
+      <edge source="salt" target="fat" id="203" weight="270" />
+      <edge source="salt" target="calorie" id="204" weight="60" />
+      <edge source="sugar" target="fat" id="205" weight="290" />
+      <edge source="sugar" target="amount" id="206" weight="200" />
+      <edge source="sugar" target="sugar" id="207" weight="170" />
+      <edge source="sugar" target="obesity" id="208" weight="150" />
+      <edge source="sugar" target="beverage" id="209" weight="110" />
+      <edge source="sugar" target="reformulation" id="210" weight="70" />
+      <edge source="sugar" target="health" id="211" weight="70" />
+      <edge source="sugar" target="sodium" id="212" weight="70" />
+      <edge source="sugar" target="fibre" id="213" weight="60" />
+      <edge source="sugar" target="reduction" id="214" weight="50" />
+      <edge source="sugar" target="recommendation" id="215" weight="50" />
+      <edge source="sugar" target="tax" id="216" weight="50" />
+      <edge source="sugar" target="child" id="217" weight="50" />
+      <edge source="school" target="school" id="218" weight="830" />
+      <edge source="school" target="meal" id="219" weight="60" />
+      <edge source="school" target="child" id="220" weight="100" />
+      <edge source="school" target="time" id="221" weight="110" />
+      <edge source="school" target="chef" id="222" weight="80" />
+      <edge source="school" target="education" id="223" weight="80" />
+      <edge source="school" target="area" id="224" weight="80" />
+      <edge source="school" target="gate" id="225" weight="80" />
+      <edge source="school" target="support" id="226" weight="70" />
+      <edge source="school" target="water" id="227" weight="70" />
+      <edge source="school" target="approach" id="228" weight="60" />
+      <edge source="school" target="lunch" id="229" weight="60" />
+      <edge source="school" target="obesity" id="230" weight="50" />
+      <edge source="school" target="offer" id="231" weight="60" />
+      <edge source="school" target="breakfast" id="232" weight="50" />
+      <edge source="school" target="country" id="233" weight="50" />
+      <edge source="school" target="home" id="234" weight="50" />
+      <edge source="school" target="parent" id="235" weight="50" />
+      <edge source="school" target="provision" id="236" weight="50" />
+      <edge source="school" target="research" id="237" weight="50" />
+      <edge source="school" target="quality" id="238" weight="50" />
+      <edge source="school" target="outlet" id="239" weight="50" />
+      <edge source="environment" target="health" id="240" weight="90" />
+      <edge source="environment" target="role" id="241" weight="90" />
+      <edge source="environment" target="environment" id="242" weight="50" />
+      <edge source="meal" target="child" id="243" weight="70" />
+      <edge source="system" target="system" id="244" weight="90" />
+      <edge source="system" target="approach" id="245" weight="90" />
+      <edge source="system" target="time" id="246" weight="70" />
+      <edge source="system" target="example" id="247" weight="60" />
+      <edge source="system" target="evidence" id="248" weight="50" />
+      <edge source="system" target="government" id="249" weight="50" />
+      <edge source="system" target="health" id="250" weight="50" />
+      <edge source="system" target="classification" id="251" weight="50" />
+      <edge source="company" target="company" id="252" weight="100" />
+      <edge source="company" target="profit" id="253" weight="70" />
+      <edge source="company" target="report" id="254" weight="70" />
+      <edge source="company" target="government" id="255" weight="50" />
+      <edge source="evidence" target="session" id="256" weight="540" />
+      <edge source="evidence" target="committee" id="257" weight="110" />
+      <edge source="evidence" target="evidence" id="258" weight="150" />
+      <edge source="evidence" target="obesity" id="259" weight="150" />
+      <edge source="evidence" target="question" id="260" weight="60" />
+      <edge source="evidence" target="health" id="261" weight="50" />
+      <edge source="evidence" target="morning" id="262" weight="90" />
+      <edge source="evidence" target="study" id="263" weight="50" />
+      <edge source="evidence" target="trial" id="264" weight="90" />
+      <edge source="evidence" target="support" id="265" weight="80" />
+      <edge source="evidence" target="month" id="266" weight="70" />
+      <edge source="evidence" target="call" id="267" weight="60" />
+      <edge source="evidence" target="show" id="268" weight="60" />
+      <edge source="evidence" target="ask" id="269" weight="60" />
+      <edge source="evidence" target="body" id="270" weight="60" />
+      <edge source="evidence" target="quality" id="271" weight="60" />
+      <edge source="evidence" target="government" id="272" weight="50" />
+      <edge source="evidence" target="concern" id="273" weight="50" />
+      <edge source="evidence" target="report" id="274" weight="50" />
+      <edge source="evidence" target="interest" id="275" weight="50" />
+      <edge source="evidence" target="repeat" id="276" weight="50" />
+      <edge source="evidence" target="policymakers" id="277" weight="50" />
+      <edge source="evidence" target="area" id="278" weight="50" />
+      <edge source="session" target="committee" id="279" weight="300" />
+      <edge source="session" target="question" id="280" weight="60" />
+      <edge source="session" target="morning" id="281" weight="60" />
+      <edge source="session" target="repeat" id="282" weight="50" />
+      <edge source="health" target="outcome" id="283" weight="530" />
+      <edge source="health" target="policy" id="284" weight="60" />
+      <edge source="health" target="obesity" id="285" weight="90" />
+      <edge source="health" target="health" id="286" weight="160" />
+      <edge source="health" target="department" id="287" weight="150" />
+      <edge source="health" target="impact" id="288" weight="80" />
+      <edge source="health" target="inequality" id="289" weight="120" />
+      <edge source="health" target="university" id="290" weight="110" />
+      <edge source="health" target="claim" id="291" weight="110" />
+      <edge source="health" target="care" id="292" weight="100" />
+      <edge source="health" target="cause" id="293" weight="100" />
+      <edge source="health" target="government" id="294" weight="90" />
+      <edge source="health" target="child" id="295" weight="90" />
+      <edge source="health" target="risk" id="296" weight="60" />
+      <edge source="health" target="nutrition" id="297" weight="80" />
+      <edge source="health" target="population" id="298" weight="80" />
+      <edge source="health" target="research" id="299" weight="80" />
+      <edge source="health" target="time" id="300" weight="60" />
+      <edge source="health" target="effect" id="301" weight="70" />
+      <edge source="health" target="part" id="302" weight="50" />
+      <edge source="health" target="organization" id="303" weight="70" />
+      <edge source="health" target="director" id="304" weight="60" />
+      <edge source="health" target="england" id="305" weight="60" />
+      <edge source="health" target="world" id="306" weight="60" />
+      <edge source="health" target="study" id="307" weight="60" />
+      <edge source="health" target="group" id="308" weight="60" />
+      <edge source="health" target="responsibility" id="309" weight="50" />
+      <edge source="health" target="challenge" id="310" weight="50" />
+      <edge source="health" target="institute" id="311" weight="50" />
+      <edge source="health" target="professor" id="312" weight="50" />
+      <edge source="health" target="condition" id="313" weight="50" />
+      <edge source="health" target="consequence" id="314" weight="50" />
+      <edge source="health" target="authority" id="315" weight="50" />
+      <edge source="child" target="child" id="316" weight="90" />
+      <edge source="child" target="obesity" id="317" weight="50" />
+      <edge source="child" target="age" id="318" weight="60" />
+      <edge source="child" target="choice" id="319" weight="50" />
+      <edge source="child" target="increase" id="320" weight="50" />
+      <edge source="child" target="adult" id="321" weight="50" />
+      <edge source="child" target="family" id="322" weight="50" />
+      <edge source="child" target="parent" id="323" weight="50" />
+      <edge source="child" target="measurement" id="324" weight="50" />
+      <edge source="child" target="access" id="325" weight="50" />
+      <edge source="child" target="nutrition" id="326" weight="50" />
+      <edge source="committee" target="role" id="327" weight="190" />
+      <edge source="committee" target="interest" id="328" weight="190" />
+      <edge source="committee" target="obesity" id="329" weight="170" />
+      <edge source="committee" target="committee" id="330" weight="170" />
+      <edge source="committee" target="procedure" id="331" weight="130" />
+      <edge source="committee" target="lord" id="332" weight="90" />
+      <edge source="committee" target="recommendation" id="333" weight="50" />
+      <edge source="committee" target="member" id="334" weight="70" />
+      <edge source="committee" target="nutrition" id="335" weight="70" />
+      <edge source="role" target="responsibility" id="336" weight="70" />
+      <edge source="role" target="policy" id="337" weight="60" />
+      <edge source="role" target="mind" id="338" weight="50" />
+      <edge source="policy" target="government" id="339" weight="130" />
+      <edge source="policy" target="planning" id="340" weight="140" />
+      <edge source="policy" target="process" id="341" weight="120" />
+      <edge source="policy" target="need" id="342" weight="80" />
+      <edge source="policy" target="decision" id="343" weight="80" />
+      <edge source="policy" target="influence" id="344" weight="50" />
+      <edge source="policy" target="policy" id="345" weight="70" />
+      <edge source="policy" target="part" id="346" weight="60" />
+      <edge source="policy" target="change" id="347" weight="50" />
+      <edge source="policy" target="obesity" id="348" weight="50" />
+      <edge source="policy" target="example" id="349" weight="50" />
+      <edge source="policy" target="response" id="350" weight="50" />
+      <edge source="insecurity" target="obesity" id="351" weight="50" />
+      <edge source="cost" target="production" id="352" weight="50" />
+      <edge source="cost" target="input" id="353" weight="200" />
+      <edge source="cost" target="increase" id="354" weight="120" />
+      <edge source="cost" target="living" id="355" weight="150" />
+      <edge source="cost" target="cost" id="356" weight="140" />
+      <edge source="cost" target="consumer" id="357" weight="80" />
+      <edge source="cost" target="retailer" id="358" weight="50" />
+      <edge source="cost" target="worker" id="359" weight="50" />
+      <edge source="cost" target="price" id="360" weight="50" />
+      <edge source="cost" target="inflation" id="361" weight="50" />
+      <edge source="cost" target="model" id="362" weight="50" />
+      <edge source="cost" target="labour" id="363" weight="50" />
+      <edge source="production" target="farmer" id="364" weight="60" />
+      <edge source="obesity" target="rate" id="365" weight="120" />
+      <edge source="obesity" target="disease" id="366" weight="50" />
+      <edge source="obesity" target="strategy" id="367" weight="90" />
+      <edge source="obesity" target="obesity" id="368" weight="80" />
+      <edge source="obesity" target="population" id="369" weight="70" />
+      <edge source="obesity" target="childhood" id="370" weight="60" />
+      <edge source="obesity" target="prevalence" id="371" weight="60" />
+      <edge source="obesity" target="approach" id="372" weight="50" />
+      <edge source="obesity" target="country" id="373" weight="50" />
+      <edge source="obesity" target="government" id="374" weight="50" />
+      <edge source="government" target="government" id="375" weight="120" />
+      <edge source="government" target="approach" id="376" weight="80" />
+      <edge source="government" target="recommendation" id="377" weight="60" />
+      <edge source="government" target="regulation" id="378" weight="60" />
+      <edge source="government" target="department" id="379" weight="60" />
+      <edge source="government" target="question" id="380" weight="60" />
+      <edge source="government" target="part" id="381" weight="50" />
+      <edge source="inflation" target="price" id="382" weight="50" />
+      <edge source="manufacturer" target="retailer" id="383" weight="50" />
+      <edge source="example" target="market" id="384" weight="60" />
+      <edge source="example" target="example" id="385" weight="60" />
+      <edge source="member" target="interest" id="386" weight="70" />
+      <edge source="member" target="publication" id="387" weight="80" />
+      <edge source="member" target="accuracy" id="388" weight="70" />
+      <edge source="interest" target="conflict" id="389" weight="200" />
+      <edge source="interest" target="opportunity" id="390" weight="130" />
+      <edge source="interest" target="deem" id="391" weight="130" />
+      <edge source="interest" target="declare" id="392" weight="60" />
+      <edge source="interest" target="register" id="393" weight="50" />
+      <edge source="amount" target="time" id="394" weight="50" />
+      <edge source="question" target="time" id="395" weight="170" />
+      <edge source="question" target="part" id="396" weight="50" />
+      <edge source="question" target="question" id="397" weight="120" />
+      <edge source="question" target="meeting" id="398" weight="120" />
+      <edge source="question" target="response" id="399" weight="50" />
+      <edge source="question" target="briefly" id="400" weight="50" />
+      <edge source="time" target="period" id="401" weight="130" />
+      <edge source="time" target="time" id="402" weight="100" />
+      <edge source="time" target="inquiry" id="403" weight="80" />
+      <edge source="time" target="profit" id="404" weight="60" />
+      <edge source="time" target="consumer" id="405" weight="60" />
+      <edge source="time" target="discussion" id="406" weight="60" />
+      <edge source="time" target="change" id="407" weight="50" />
+      <edge source="time" target="supermarket" id="408" weight="50" />
+      <edge source="time" target="course" id="409" weight="50" />
+      <edge source="time" target="data" id="410" weight="50" />
+      <edge source="time" target="deem" id="411" weight="50" />
+      <edge source="time" target="briefly" id="412" weight="50" />
+      <edge source="country" target="world" id="413" weight="80" />
+      <edge source="country" target="country" id="414" weight="70" />
+      <edge source="country" target="part" id="415" weight="70" />
+      <edge source="country" target="market" id="416" weight="60" />
+      <edge source="country" target="income" id="417" weight="60" />
+      <edge source="choice" target="consumer" id="418" weight="70" />
+      <edge source="choice" target="choice" id="419" weight="60" />
+      <edge source="choice" target="customer" id="420" weight="50" />
+      <edge source="price" target="consumer" id="421" weight="110" />
+      <edge source="price" target="price" id="422" weight="70" />
+      <edge source="price" target="energy" id="423" weight="50" />
+      <edge source="price" target="retailer" id="424" weight="50" />
+      <edge source="price" target="unit" id="425" weight="50" />
+      <edge source="price" target="customer" id="426" weight="50" />
+      <edge source="climate" target="change" id="427" weight="160" />
+      <edge source="change" target="consumer" id="428" weight="70" />
+      <edge source="change" target="change" id="429" weight="50" />
+      <edge source="consumer" target="consumer" id="430" weight="130" />
+      <edge source="consumer" target="supermarket" id="431" weight="50" />
+      <edge source="consumer" target="producer" id="432" weight="50" />
+      <edge source="consumer" target="retailer" id="433" weight="50" />
+      <edge source="worker" target="scheme" id="434" weight="50" />
+      <edge source="worker" target="worker" id="435" weight="140" />
+      <edge source="worker" target="survey" id="436" weight="50" />
+      <edge source="supermarket" target="supermarket" id="437" weight="90" />
+      <edge source="supermarket" target="convenience" id="438" weight="70" />
+      <edge source="supermarket" target="shelf" id="439" weight="60" />
+      <edge source="part" target="solution" id="440" weight="60" />
+      <edge source="area" target="deprivation" id="441" weight="60" />
+      <edge source="area" target="area" id="442" weight="50" />
+      <edge source="area" target="study" id="443" weight="50" />
+      <edge source="relationship" target="retailer" id="444" weight="50" />
+      <edge source="market" target="share" id="445" weight="130" />
+      <edge source="market" target="market" id="446" weight="90" />
+      <edge source="market" target="competition" id="447" weight="60" />
+      <edge source="market" target="authority" id="448" weight="60" />
+      <edge source="market" target="world" id="449" weight="60" />
+      <edge source="market" target="commodity" id="450" weight="50" />
+      <edge source="family" target="parent" id="451" weight="60" />
+      <edge source="family" target="hub" id="452" weight="60" />
+      <edge source="family" target="income" id="453" weight="60" />
+      <edge source="profit" target="margin" id="454" weight="130" />
+      <edge source="profit" target="profit" id="455" weight="50" />
+      <edge source="opportunity" target="risk" id="456" weight="50" />
+      <edge source="regulation" target="regulation" id="457" weight="70" />
+      <edge source="business" target="model" id="458" weight="60" />
+      <edge source="research" target="research" id="459" weight="100" />
+      <edge source="cohort" target="study" id="460" weight="120" />
+      <edge source="farmer" target="grower" id="461" weight="90" />
+      <edge source="farmer" target="processor" id="462" weight="80" />
+      <edge source="farmer" target="retailer" id="463" weight="50" />
+      <edge source="farmer" target="farmer" id="464" weight="50" />
+      <edge source="fruit" target="veg" id="465" weight="90" />
+      <edge source="fruit" target="fruit" id="466" weight="70" />
+      <edge source="risk" target="assessment" id="467" weight="60" />
+      <edge source="risk" target="management" id="468" weight="50" />
+      <edge source="retailer" target="retailer" id="469" weight="70" />
+      <edge source="retailer" target="supplier" id="470" weight="50" />
+      <edge source="retailer" target="adjudicator" id="471" weight="50" />
+      <edge source="retailer" target="discretion" id="472" weight="50" />
+      <edge source="data" target="transparency" id="473" weight="50" />
+      <edge source="data" target="power" id="474" weight="50" />
+    </edges>
+  </graph>
+</gexf>
