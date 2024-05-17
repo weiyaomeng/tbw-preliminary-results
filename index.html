@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think Better World - Preliminary Data Analysis Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .flex-item {
+            text-align: center;
+            margin: 10px;
+        }
+        .flex-item img {
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Think Better World - Preliminary Data Analysis Results</h1>
+
+    <h2>Word Clouds</h2>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h3>Environment, Food, and Rural Affairs</h3>
+            <img src="assets/EnvironmentFoodRuralAffairs_wordcloud.png" alt="Environment, Food, and Rural Affairs Word Cloud">
+        </div>
+        <div class="flex-item">
+            <h3>Food, Diet, and Obesity</h3>
+            <img src="assets/FoodDietandObesity_wordcloud.png" alt="Food, Diet, and Obesity Word Cloud">
+        </div>
+    </div>
+
+    <h2>pyLDAvis Visualizations</h2>
+    <h3>Environment, Food, and Rural Affairs</h3>
+    <iframe src="assets/EnvironmentFoodRuralAffairs_LDA_Visualization.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+
+    <h3>Food, Diet, and Obesity</h3>
+    <iframe src="assets/FoodDietandObesity_LDA_Visualization.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+
+    <h2>Bigram Networks</h2>
+    <iframe src="assets/network/index.html" style="width: 100%; height: 80vh; border: none;"></iframe>
+
+    <h2>Important Food Topics</h2>
+    <iframe src="https://www.menti.com/al6ejbwvhnbe" style="width: 100%; height: 80vh; border: none;"></iframe>
+</body>
+</html>
