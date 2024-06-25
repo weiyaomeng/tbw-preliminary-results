@@ -15,16 +15,15 @@
         #navbar {
             background-color: #333;
             color: white;
-            position: fixed;
-            top: 0;
+            position: static;  /* Updated from fixed to static */
             width: 100%;
             display: flex;
             justify-content: space-around;
             align-items: center;
             z-index: 1000;
             padding: 10px 0;
-            transition: top 0.3s; /* Smooth transition for navbar hiding and showing */
         }
+
         #navbar a {
             color: white;
             padding: 10px;
