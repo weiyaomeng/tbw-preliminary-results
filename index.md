@@ -46,7 +46,5 @@ This section now includes our newest analyses from June, alongside our continuin
 <iframe src="assets/202406//Users/weiyao/Github/tbw-preliminary-results/assets/202406/Trend-number-of-activities-over-year/treemap_chart_blue.html" style="width: 100%; height: 100vh; border: none;"></iframe>
 
 
-
-
 ## Important Food Topics
 <iframe src="https://www.menti.com/al6ejbwvhnbe" style="width: 100%; height: 80vh; border: none;"></iframe>
