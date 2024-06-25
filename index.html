@@ -23,7 +23,7 @@
             z-index: 1000;
             padding: 10px 0;
         }
-
+    
         #navbar a {
             color: white;
             padding: 10px;
@@ -48,6 +48,14 @@
             max-width: 100%;
             height: auto;
         }
+        /* Styling links within h3 and h4 tags */
+        h3 a, h4 a {
+            color: inherit;  /* Inherits the color from the parent element */
+            text-decoration: none;  /* No underline by default */
+        }
+        h3 a:hover, h4 a:hover {
+            text-decoration: underline;  /* Underline on hover for better interactivity */
+        }
         /* Media Queries */
         @media (max-width: 767px) {
             #navbar {
@@ -58,6 +66,7 @@
             }
         }
     </style>
+    
 </head>
 <body>
     <div id="navbar">
@@ -92,13 +101,15 @@
     
     <h3>Topic Modelling Visualisations</h3>
     <div class="center-container">
-        <h4>Environment, Food, and Rural Affairs Committee</h4>
+        <h4><a href="assets/202405/EnvironmentFoodRuralAffairs_LDA_Visualization.html" target="_blank">Environment, Food, and Rural Affairs Committee</a></h4>
         <iframe src="assets/202405/EnvironmentFoodRuralAffairs_LDA_Visualization.html" style="width: 100%; height: 100vh; border: none;"></iframe>
     </div>
+    
     <div class="center-container">
-        <h4>Food, Diet, and Obesity Committee</h4>
+        <h4><a href="assets/202405/FoodDietandObesity_LDA_Visualization.html" target="_blank">Food, Diet, and Obesity Committee</a></h4>
         <iframe src="assets/202405/FoodDietandObesity_LDA_Visualization.html" style="width: 100%; height: 100vh; border: none;"></iframe>
     </div>
+    
 
     <h3>Bigram Networks</h3>
     <iframe src="assets/202405/network/index.html" style="width: 100%; height: 80vh; border: none;"></iframe>
@@ -106,8 +117,7 @@
 
     <section id="new-results">
         <h2>New Analysis Results (June) - Inquiries of the Environment, Food, and Rural Affairs Committee</h2>
-        <h3>Trends of activities change over years</h3>
-        <iframe src="assets/202406/Trend-number-of-activities-over-year/yearly activity count per inquiry bar chart.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+        <h3><a href="assets/202406/Trend-number-of-activities-over-year/yearly activity count per inquiry bar chart.html" target="_blank">Trends of activities change over years</a></h3>
 
         <iframe src="assets/202406/Count_different_inquiries/distribution_different_inquiries_blue.html" style="width: 100%; height: 100vh; border: none;"></iframe>
 
