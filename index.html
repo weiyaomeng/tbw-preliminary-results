@@ -2,56 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Think Better World - Data-driven insights for transformational change</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .flex-item {
+            text-align: center;
+            margin: 10px;
+        }
+        .flex-item img {
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
+    <h1>Think Better World - Data-driven insights for transformational change</h1>
 
-<!-- Navigation Bar -->
-<nav style="position: fixed; top: 0; width: 100%; background: #FFF; padding: 10px 0; z-index: 1000; border-bottom: 1px solid #ccc;">
-    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
-        <div><a href="#overview">Overview</a></div>
-        <div><a href="#previous-results">Previous Results</a></div>
-        <div><a href="#new-results">New Results</a></div>
-        <div><a href="#important-topics">Important Topics</a></div>
-    </div>
-</nav>
-
-<div style="padding-top: 50px;">
-    <header>
-        <h1>Think Better World - Data-driven insights for transformational change</h1>
-        <p>Welcome to our updated results presentation for the upcoming **Groundswell 2024**!</p>
-        <p>- [Join us on LinkedIn](https://www.linkedin.com/showcase/think-better-world/) for updates.</p>
-        <p>- Visit our [Think Better World Alliance Website](http://www.thinkbetterworld.com/) to get involved.</p>
-    </header>
-
-    <section id="overview">
-        <h2>Overview</h2>
-        <p>This section now includes our newest analyses from June, alongside our continuing work from May 2024.</p>
-    </section>
+    <p>Welcome to our updated results presentation for the upcoming <strong>Groundswell 2024</strong>!</p>
+    <p>
+        <a href="https://www.linkedin.com/showcase/think-better-world/" target="_blank">Join us on LinkedIn</a> for updates.
+    </p>
+    <p>
+        Visit our <a href="http://www.thinkbetterworld.com/" target="_blank">Think Better World Alliance Website</a> to get involved.
+    </p>
 
     <section id="previous-results">
-        <h2>Previous Analysis Results (May)</h2>
-        <!-- Content for previous results -->
+    <h2>Previous Analysis Results (May)</h2>
+    <h3>Word Clouds</h3>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h4>Environment, Food, and Rural Affairs Committee</h4>
+            <img src="assets/202405/EnvironmentFoodRuralAffairs_wordcloud.png" alt="Environment, Food, and Rural Affairs Word Cloud">
+        </div>
+        <div class="flex-item">
+            <h4>Food, Diet, and Obesity Committee</h4>
+            <img src="assets/202405/FoodDietandObesity_wordcloud.png" alt="Food, Diet, and Obesity Word Cloud">
+        </div>
+    </div>
+
+    
+
+    <h3>Topic Modelling Visualisations</h3>
+    <div class="center-container">
+        <h4>Environment, Food, and Rural Affairs Committee</h4>
+        <iframe src="assets/202405/EnvironmentFoodRuralAffairs_LDA_Visualization.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+    </div>
+    <div class="center-container">
+        <h4>Food, Diet, and Obesity Committee</h4>
+        <iframe src="assets/202405/FoodDietandObesity_LDA_Visualization.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+    </div>
+    
+    <h3>Bigram Networks</h3>
+    <iframe src="assets/202405/network/index.html" style="width: 100%; height: 80vh; border: none;"></iframe>
     </section>
 
     <section id="new-results">
         <h2>New Analysis Results (June)</h2>
-        <!-- Content for new results -->
+        <h3>Inquiries of the Environment, Food, and Rural Affairs Committee</h3>
+        <iframe src="assets/202406/Count_different_inquiries/distribution_different_inquiries_colourful.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+        <h3>Trends of activities change over years</h3>
+        <iframe src="assets/202406/Trend-number-of-activities-over-year/yearly activity count per inquiry bar chart.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+        <iframe src="assets/202406/Trend-number-of-activities-over-year/treemap_chart_blue.html" style="width: 100%; height: 100vh; border: none;"></iframe>
     </section>
+
+
+
 
     <section id="important-topics">
         <h2>Important Food Topics</h2>
-        <!-- Content for important topics -->
+        <iframe src="https://www.menti.com/al6ejbwvhnbe" style="width: 100%; height: 80vh; border: none;"></iframe>
     </section>
+    <!--<h2>What do you think are the most important food topics right now?</h2>
+    <h3>Scan here to join the discussion </h3>
+    <img src="assets/mentimeter_qr_code.png" alt="Menti">-->
 
-    <!-- Additional content and sections -->
-
-</div>
-
-<footer>
-    <!-- Footer content -->
-</footer>
 
 </body>
 </html>

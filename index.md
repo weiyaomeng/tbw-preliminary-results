@@ -43,7 +43,9 @@ This section now includes our newest analyses from June, alongside our continuin
 ### Trends of activities change over years
 <iframe src="assets/202406//Users/weiyao/Github/tbw-preliminary-results/assets/202406/Trend-number-of-activities-over-year/yearly activity count per inquiry bar chart.html" style="width: 100%; height: 100vh; border: none;"></iframe>
 
-<iframe src="assets/202406//Users/weiyao/Github/tbw-preliminary-results/assets/202406/Trend-number-of-activities-over-year/treemap_chart_blue.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+
+
+
 
 
 ## Important Food Topics
