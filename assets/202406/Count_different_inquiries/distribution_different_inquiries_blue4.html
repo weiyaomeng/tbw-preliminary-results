@@ -8,17 +8,25 @@
     <style>
         #container {
             display: flex;
+            flex-wrap: wrap;
         }
         #treemap {
-            width: 50%;
+            flex: 1 1 50%; /* Each child will take half of the container's width */
+            max-width: 50%; /* Limits the maximum width */
         }
         #wordcloud {
-            width: 50%;
             height: auto;
             max-width: 100%;
             max-height: 100vh;
             object-fit: contain;
         }
+        /* Media query for smaller screens */
+        @media (max-width: 800px) {
+            #treemap, #wordcloud {
+                flex: 1 1 100%; /* Each child will take the full width of the container */
+                max-width: 100%; /* Allows each child to expand to full width */
+            }
+        }   
     </style>
 </head>
 <body>
