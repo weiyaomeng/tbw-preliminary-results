@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Think Better World - Data-driven insights for transformational change">
+    <meta name="keywords" content="Data Analysis, Transformational Change, Food Topics, Insights">
+    <meta name="author" content="Think Better World">
+    <title>Think Better World - Data-driven insights for transformational change</title>
+    <style>
+        body, html {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+        #navbar {
+            background-color: #333;
+            color: white;
+            position: static;  /* Updated from fixed to static */
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 1000;
+            padding: 10px 0;
+        }
+        #navbar a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        #navbar a:hover {
+            background-color: #555;
+        }
+        .flex-container, .center-container {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .flex-item, .center-container > div {
+            margin: 10px;
+        }
+        .flex-item img, iframe {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        /* Styling links within h3 and h4 tags */
+        h3 a, h4 a {
+            color: inherit;  /* Inherits the color from the parent element */
+            text-decoration: none;  /* No underline by default */
+        }
+        h3 a:hover, h4 a:hover {
+            text-decoration: underline;  /* Underline on hover for better interactivity */
+        }
+        /* Media Queries */
+        @media (max-width: 767px) {
+            #navbar {
+                flex-direction: column; /* Stack navbar items vertically */
+            }
+            .flex-container, .center-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <a href="#tbw" aria-label="Think Better World">Think Better World</a>
+        <a href="#new-results" aria-label="Data Analysis section">Data Analysis</a>
+        <a href="#important-topics" aria-label="Important Food Topics section">Important Food Topics</a>
+    </div>
+
+    <h1>Think Better World - Data-driven insights for transformational change</h1>
+
+    
+    
+    
+
+    <section id="tbw">
+        <div class="flourish-embed" data-src="story/2482399"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        <div class="flourish-embed" data-src="story/2482260"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        <!-- <h2>Think Better World</h2>
+        <h3>Why</h3>
+        <h3>What</h3>
+        <h3>How</h3> -->
+        <!-- Commented out section with intention to add later
+        <h3>Word Clouds</h3>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h4>Environment, Food, and Rural Affairs Committee: Fairness in the Food Supply Chain Inquiry</h4>
+                <img src="assets/202405/EnvironmentFoodRuralAffairs_wordcloud.png" alt="Environment, Food, and Rural Affairs Word Cloud">
+            </div>
+            <div class="flex-item">
+                <h4>Food, Diet, and Obesity Committee: Food, Diet, and Obesity Inquiry</h4>
+                <img src="assets/202405/FoodDietandObesity_wordcloud.png" alt="Food, Diet, and Obesity Word Cloud">
+            </div>
+        </div>
+
+        <h3>Topic Modelling Visualisations</h3>
+        <div class="center-container">
+            <h4><a href="assets/202405/EnvironmentFoodRuralAffairs_LDA_Visualization.html" target="_blank">Environment, Food, and Rural Affairs Committee</a></h4>
+            <iframe src="assets/202405/EnvironmentFoodRuralAffairs_LDA_Visualization.html" style="width: 100%; height: 100vh; border: none;" title="Environment, Food, and Rural Affairs Visualization"></iframe>
+        </div>
+
+        <div class="center-container">
+            <h4><a href="assets/202405/FoodDietandObesity_LDA_Visualization.html" target="_blank">Food, Diet, and Obesity Committee</a></h4>
+            <iframe src="assets/202405/FoodDietandObesity_LDA_Visualization.html" style="width: 100%; height: 100vh; border: none;" title="Food, Diet, and Obesity Visualization"></iframe>
+        </div>
+
+        <h3><a href="assets/202405/network/index.html" target="_blank">Bigram Networks</a></h3>
+        <iframe src="assets/202405/network/index.html" style="width: 100%; height: 80vh; border: none;" title="Bigram Networks"></iframe>-->
+       
+    </section>
+
+    <section id="new-results">
+        <!--<h2>Data Analysis Results (July) - Inquiries of the Environment, Food, and Rural Affairs Committee</h2>
+         https://public.flourish.studio/story/2482260/ -->
+        <div class="flourish-embed" data-src="story/2482376"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        <!-- <h3><a href="assets/202406/Trend-number-of-activities-over-year/yearly activity count per inquiry bar chart.html" target="_blank">Trends of activities change over years</a></h3>
+        <iframe src="assets/202406/Trend-number-of-activities-over-year/yearly activity count per inquiry bar chart.html" style="width: 100%; height: 100vh; border: none;" title="Trends of Activities Change Over Years"></iframe>
+
+        <h3><a href="assets/202406/Count_different_inquiries/distribution_different_inquiries_blue4.html" target="_blank">Details of Each Inquiry</a></h3>
+        <iframe src="assets/202406/Count_different_inquiries/distribution_different_inquiries_blue3.html" style="width: 100%; height: 100vh; border: none;" title="Details of Each Inquiry"></iframe>
+
+        <h3><a href="https://public.flourish.studio/visualisation/18712540/" target="_blank">Common Word Pairs</a></h3>
+        <iframe src="https://public.flourish.studio/visualisation/18712540/" style="width: 100%; height: 100vh; border: none;" title="Common Word Pairs"></iframe> -->
+    Visualisation template courtesy of Flourish (https://flourish.studio)
+    </section>
+
+    <p>
+        <a href="https://www.linkedin.com/showcase/think-better-world/" target="_blank" aria-label="Join us on LinkedIn">Join us on LinkedIn</a> for updates.
+    </p>
+    <p>
+        <img src="assets/qr code/TBW LinkedIn QR Code.png" alt="TBW LinkedIn QR Code" style="max-width: 200px; height: auto;">
+    </p>
+
+    <p>
+        Visit our <a href="http://www.thinkbetterworld.com/" target="_blank" aria-label="Think Better World Alliance Website">Think Better World Alliance Website</a> to get involved.
+    </p>
+
+    <section id="important-topics">
+        <h2>Important Food Topics</h2>
+        <iframe src="https://www.menti.com/al6ejbwvhnbe" style="width: 100%; height: 80vh; border: none;" title="Important Food Topics"></iframe>
+    </section>
+</body>
+</html>
