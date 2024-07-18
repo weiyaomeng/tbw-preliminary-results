@@ -1,6 +1,6 @@
 # Think Better World - Data-driven insights for transformational change
 
-Welcome to our updated results presentation for the upcoming **Groundswell 2024**!
+<!-- Welcome to our updated results presentation for the upcoming **Groundswell 2024**! -->
 
 - [Join us on LinkedIn](https://www.linkedin.com/showcase/think-better-world/) for updates.
 - Visit our [Think Better World Alliance Website](http://www.thinkbetterworld.com/) to get involved.
