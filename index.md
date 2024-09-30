@@ -54,5 +54,5 @@ This section now includes our newest analyses from June, alongside our continuin
 <iframe src="https://embed.cody.bot/9d1c2e3d-58ea-48c3-a10a-121d8c5f519f" style="border:0px;" name="codyai" scrolling="no" frameborder="1" marginheight="0" marginwidth="0" height="800px" width="100%" allowfullscreen></iframe>
 
 
-## Important Food Topics
-<iframe src="https://www.menti.com/al6ejbwvhnbe" style="width: 100%; height: 80vh; border: none;"></iframe>
+<!-- ## Important Food Topics
+<iframe src="https://www.menti.com/al6ejbwvhnbe" style="width: 100%; height: 80vh; border: none;"></iframe> -->
