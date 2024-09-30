@@ -1,6 +1,11 @@
 # Think Better World - Data-driven insights for transformational change
 
 <!-- Welcome to our updated results presentation for the upcoming **Groundswell 2024**! -->
+<script>
+window.codySettings = { widget_id: '9d1c2e3d-58ea-48c3-a10a-121d8c5f519f' };
+
+!function(){var t=window,e=document,a=function(){var t=e.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://trinketsofcody.com/cody-widget.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a)};"complete"===document.readyState?a():t.attachEvent?t.attachEvent("onload",a):t.addEventListener("load",a,!1)}();
+</script>
 
 - [Join us on LinkedIn](https://www.linkedin.com/showcase/think-better-world/) for updates.
 - Visit our [Think Better World Alliance Website](http://www.thinkbetterworld.com/) to get involved.
@@ -45,7 +50,8 @@ This section now includes our newest analyses from June, alongside our continuin
 
 
 
-
+## Bot
+<iframe src="https://embed.cody.bot/9d1c2e3d-58ea-48c3-a10a-121d8c5f519f" style="border:0px;" name="codyai" scrolling="no" frameborder="1" marginheight="0" marginwidth="0" height="800px" width="100%" allowfullscreen></iframe>
 
 
 ## Important Food Topics
